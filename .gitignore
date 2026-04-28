@@ -1,0 +1,47 @@
+# 忽略敏感配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略本地记忆数据库
+local_memory_db/
+cloud_cache/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# 忽略Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 忽略IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略日志
+*.log
+logs/
+
+# 忽略临时文件
+tmp/
+temp/
